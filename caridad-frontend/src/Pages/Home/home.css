@@ -1,0 +1,253 @@
+.portadaHome{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url("../../assets/fotoPadre.jpeg");
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode:overlay;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10rem;
+}
+
+.portadaHome img{
+    height: 250px;
+}
+
+.fraseInicialHome{
+    width: 100%;
+    padding: 3rem 2rem;
+    text-align: end;
+}
+
+.fraseInicialHome p{
+    padding-inline: 2rem;
+    color: var(--dorado);
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3.3rem;
+    font-weight: 300;
+}
+
+.fraseInicialHome strong{
+    font-weight: 600;
+}
+
+.fraseInicialHome span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.leerMasHome{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.leerMasHome a{
+    text-decoration: none;
+    color: var(--dorado);
+    font-size: 1.5rem;
+    font-weight: 400;
+    transition: all .3s ease;
+}
+
+.leerMasHome a:hover{
+    color: rgb(191, 150, 99, .5);
+}
+
+.leerMasHome a svg{
+    transition: all .3s ease;
+}
+
+.leerMasHome a:hover svg{
+    stroke: rgb(191, 150, 99, .5);
+    padding-left: .5rem;
+}
+
+.bandaImagenHome{
+    width: 100%;
+    height: 300px;
+    background-image: url("../../assets/Photos/foto26.jpg");
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.biografiaHome{
+    width: 100%;
+    padding: 3rem 2rem;
+}
+
+.biografiaHome p{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.65rem;
+    font-weight: 300;
+}
+
+.lineaDivisora{
+    height: 2px;
+    width: 60%;
+    margin: auto;
+    border-radius: .5rem;
+    background-color: var(--linea-divisora);
+}
+
+.obrasHome{
+    width: 100%;
+    padding: 3rem 2rem;
+}
+
+.obrasHome h2{
+    font-size: 2rem;
+}
+
+.carouselObrasHome{
+    margin-top: 1rem;
+}
+
+.cardObrasHome{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 95%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cardObrasHome:hover{
+    transform: scale(1.05);
+}
+
+.cardObrasHome:hover .contenedorImagenCardObrasHome{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contenedorImagenCardObrasHome{
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url("../../assets/Photos/foto20.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.contenedorImagenCardObrasHome h5{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    padding-inline: 2rem;
+}
+
+.nombreCardObrasHome{
+    width: 100%;
+    margin-top: 1.5rem;
+    text-align: center;
+    padding-inline: 1rem;
+}
+
+.nombreCardObrasHome h4{
+    font-size: 1.5rem;   
+}
+
+.niñezVocacionHome{
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.niñezVocacionHome div{
+    width: 40%;
+    padding-bottom: 15%;
+    font-size: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.niñezVocacionHome div:hover{
+    background-color: rgba(255, 255, 255, 0.35);
+    transform: scale(1.05);
+}
+
+.niñezAdolescenciaHome{
+    background-image: url("../../assets/Photos/foto4.jpg");
+    background-position: 50% 30%;
+}
+
+.vocacionHome{
+    background-image: url("../../assets/Photos/foto19.jpg");
+    background-position: 50% 37%;
+}
+
+.niñezVocacionHome h5{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding-inline: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    filter: drop-shadow(2px 2px 2px rgb(81, 81, 81, .5));
+}
+
+.testimonioSeñoraHome{
+    width: 100%;
+    padding: 3rem 2rem;
+}
+
+.testimonioSeñoraHome h2{
+    text-align: center;
+    color: var(--dorado);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonioSeñoraHome p{
+    padding-inline: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3.3rem;
+    font-weight: 300;
+}
+
+.testimonioSeñoraHome strong{
+    font-weight: 600;
+}
+
+.testimonioSeñoraHome span{
+    display: block;
+    text-align: end;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
