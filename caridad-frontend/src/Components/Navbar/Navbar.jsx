@@ -22,13 +22,25 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarPrincipal">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="/">Inicio</a>
+                            <a className="nav-link" aria-current="page" href="/1">Inicio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/Fundacion-Padre-Martin-Martin-Martin">Obras</a>
+                            <a className="nav-link" href="/#susObras">Obras</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/Novedades">Testimonios</a>
+                            <a className="nav-link" href="/#suVida">Su vida</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/#Maria">María</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/#Grupos">Grupos</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/#CristoHoy">Cristo Hoy</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/#sueñoXCumplir">Sueño por cumplir</a>
                         </li>
                     </ul>
                 </div>

@@ -15,13 +15,13 @@
     --negro: rgb(51, 51, 51, 1);
     --negro-claro: rgb(81, 81, 81, 1);
     --linea-divisora: rgb(51, 51, 51, 0.2);
-    --main-font-familiy: 'Montserrat', sans-serif;
+    --main-font-family: 'Montserrat', sans-serif;
     --font-manhattan: 'Manhattan', sans-serif;
     --font-watermelon: 'Watermelon', sans-serif;
 }
   
 * {
-    font-family: var(--main-font-familiy);
+    font-family: var(--main-font-family);
     margin: 0;
     padding: 0;
     box-sizing: border-box;

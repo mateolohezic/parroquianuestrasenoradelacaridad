@@ -1,0 +1,10 @@
+footer{
+    background-color: var(--dorado);
+    width: 100%;
+    text-align: end;
+    padding: 2rem 3rem 2rem 0rem
+}
+
+footer img{
+    width: 10%;
+}

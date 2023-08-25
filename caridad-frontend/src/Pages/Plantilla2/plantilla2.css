@@ -1,0 +1,52 @@
+.contenedorPlantilla2{
+    width: 100%;
+    padding: 1rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.cuerpoPlantilla2{
+    width: 100%;
+    background-color: rgb(191, 150, 99, .1);
+    border-radius: .5rem;
+    padding: 3rem 3rem;
+}
+
+.cuerpoPlantilla2 p{
+    margin: auto;
+    font-size: 1.5rem;
+    text-indent: 35px;
+}
+
+.cuerpoPlantilla2 p:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+
+.cuerpoPlantilla2 h4{
+    margin-top: 2rem;
+    text-align: end;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.cuerpoPlantilla2 h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(51, 51, 51, .7);
+    text-align: end;
+}
+
+.imagenesPlantilla2{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 3rem;
+}
+
+.imagenesPlantilla2 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center 30%;
+}

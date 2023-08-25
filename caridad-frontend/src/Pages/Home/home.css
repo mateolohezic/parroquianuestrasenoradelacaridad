@@ -1,6 +1,6 @@
 .portadaHome{
     width: 100%;
-    height: 300px;
+    height: 400px;
     text-align: center;
     background-image: url("../../assets/fotoPadre.jpeg");
     background-position: 50% 30%;
@@ -55,6 +55,7 @@
     font-size: 1.5rem;
     font-weight: 400;
     transition: all .3s ease;
+    font-family: var(--font-manhattan);
 }
 
 .leerMasHome a:hover{
@@ -73,7 +74,7 @@
 .bandaImagenHome{
     width: 100%;
     height: 300px;
-    background-image: url("../../assets/Photos/foto26.jpg");
+    background-image: url("../../assets/Photos/sacerdote14.png");
     background-position: 50% 60%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,6 +95,10 @@
     font-weight: 300;
 }
 
+.biografiaHome p:not(:last-child){
+    margin-bottom: 1rem;
+}
+
 .lineaDivisora{
     height: 2px;
     width: 60%;
@@ -108,7 +113,8 @@
 }
 
 .obrasHome h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family: var(--font-manhattan);
 }
 
 .carouselObrasHome{
@@ -129,35 +135,46 @@
     transform: scale(1.05);
 }
 
-.cardObrasHome:hover .contenedorImagenCardObrasHome{
-    background-color: rgba(255, 255, 255, 0.2);
+.cardObrasHome:hover .contenedorImagenCardObrasHome{   
+    opacity: 1;
 }
 
 .contenedorImagenCardObrasHome{
     width: 100%;
     padding-bottom: 100%;
-    background-image: url("../../assets/Photos/foto20.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode:overlay;
-    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    opacity: 0.7;
     transition: all 0.3s ease;
 }
 
-.contenedorImagenCardObrasHome h5{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    width: 100%;
-    padding-inline: 2rem;
+.caridadImagenCardObrasHome{
+    background-image: url("../../assets/Photos/caridad6.jpg");
+}
+
+.divinaMisericordiaImagenCardObrasHome{
+    background-image: url("../../assets/Photos/divina2.jpg");
+}
+
+.sanAntonioImagenCardObrasHome{
+    background-image: url("../../assets/Photos/sanAntonio.jpg");
+}
+
+.oratorioImagenCardObrasHome{
+    background-image: url("../../assets/Photos/oratorio2.jpg");
+}
+
+.rosarioImagenCardObrasHome{
+    background-image: url("../../assets/Photos/rosario.jpg");
+}
+
+.divinoNiñoImagenCardObrasHome{
+    background-image: url("../../assets/Photos/divino.jpg");
 }
 
 .nombreCardObrasHome{
@@ -188,22 +205,26 @@
     background-blend-mode: overlay;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.5);
-    transition: all 0.3s ease;
     position: relative;
+    transition: all 0.3s ease;
 }
 
 .niñezVocacionHome div:hover{
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.2);
     transform: scale(1.05);
 }
 
+.niñezVocacionHome div:hover h5{
+    opacity: 0;
+}
+
 .niñezAdolescenciaHome{
-    background-image: url("../../assets/Photos/foto4.jpg");
-    background-position: 50% 30%;
+    background-image: url("../../assets/Photos/niñez2.jpg");
+    background-position: 50% 70%;
 }
 
 .vocacionHome{
-    background-image: url("../../assets/Photos/foto19.jpg");
+    background-image: url("../../assets/Photos/vocacion1.jpg");
     background-position: 50% 37%;
 }
 
@@ -219,6 +240,7 @@
     font-size: 2rem;
     font-weight: 600;
     filter: drop-shadow(2px 2px 2px rgb(81, 81, 81, .5));
+    transition: all 0.3s ease;
 }
 
 .testimonioSeñoraHome{
@@ -241,13 +263,239 @@
     font-weight: 300;
 }
 
-.testimonioSeñoraHome strong{
-    font-weight: 600;
-}
-
 .testimonioSeñoraHome span{
     display: block;
     text-align: end;
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+.mariaHome{
+    width: 100%;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.contenedorParrafosMariaHome{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.contenedorParrafosMariaHome h3{
+    font-size: 2rem;
+    color: var(--dorado);
+    margin-bottom: 1rem;
+    font-family: var(--font-manhattan);
+}
+
+.columna1MariaHome{
+    width: 40%;
+}
+
+.columna1MariaHome p{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.columna1MariaHome p:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.columna2MariaHome{
+    width: 40%;
+}
+
+.columna2MariaHome p{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.columna2MariaHome p:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.columna3MariaHome{
+    width: 30%;
+    background-image: url("../../assets/Photos/maria1.jpg");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apostoladoHome{
+    width: 100%;
+    padding: 3rem 2rem;
+}
+
+.apostoladoHome h2{
+    font-size: 2.5rem;
+    font-family: var(--font-manhattan);
+}
+
+.contenedorCardsApostoladoHome{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: calc(8%/3);
+}
+
+.cardApostoladoHome{
+    width: 23%;
+    padding-bottom: 23%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    position: relative;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.cardApostoladoHome:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.cardApostoladoHome:hover h5{
+    opacity: 0;
+}
+
+.cardApostoladoHome h5{
+    width: 100%;
+    padding-inline: 2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    filter: drop-shadow(2px 2px 2px rgb(81, 81, 81, .5));
+    transition: all 0.3s ease;
+}
+
+.ACCardApostoladoHome{
+    background-image: url("../../assets/Photos/ac5.jpg");
+    background-position: 50% 50%;
+}
+
+.MEPCardApostoladoHome{
+    background-image: url("../../assets/Photos/mep1.jpg");
+    background-position: 50% 50%;
+}
+
+.orquestaCardApostoladoHome{
+    background-image: url("../../assets/Photos/orquesta1.jpg");
+    background-position: 50% 50%;
+}
+
+.santaTeresitaCardApostoladoHome{
+    background-image: url("../../assets/Photos/santaTeresita.jpg");
+    background-position: 50% 50%;
+}
+
+.cristoHoyHome{
+    width: 100%;
+    padding-block: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagenCristoHoyHome{
+    width: 30%;
+    background-image: url("../../assets/Photos/amigos4.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textoCristoHoyHome{
+    width: 70%;
+    padding-inline: 2rem;
+    font-size: 1.5rem;
+}
+
+.textoCristoHoyHome h2{
+    color: var(--dorado);
+    padding-inline: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: var(--font-manhattan);
+}
+
+.textoCristoHoyHome p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.textoCristoHoyHome p:not(:last-child){
+    margin-block: 1rem;
+}
+
+.bandaImagen2Home{
+    width: 100%;
+    height: 300px;
+    background-image: url("../../assets/Photos/sacerdote12.jpg");
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sueñoCumplirHome{
+    width: 100%;
+    padding-block: 3rem;
+}
+
+.sueñoCumplirHome h2{
+    text-align: center;
+    color: var(--dorado);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-manhattan);
+}
+
+.contenedorSueñoCumplirHome{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textoSueñoCumplirHome{
+    width: 70%;
+    padding-inline: 2rem;
+    font-size: 1.5rem;
+}
+
+.textoSueñoCumplirHome p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.textoSueñoCumplirHome p:not(:last-child){
+    margin-block: 1rem;
+}
+
+.imagenSueñoCumplirHome{
+    width: 30%;
+    background-image: url("../../assets/Photos/sueño1.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0);
+    background-blend-mode: overlay;
 }

@@ -1,0 +1,93 @@
+.volverAlInicio{
+    width: 100%;
+    padding-inline: 2rem;
+    margin-top: 2rem;
+    text-align: start;
+}
+
+.volverAlInicio a{
+    text-decoration: none;
+    color: var(--dorado);
+    font-size: 1.5rem;
+    font-weight: 400;
+    transition: all .3s ease;
+    font-family: var(--font-manhattan);
+}
+
+.volverAlInicio a:hover{
+    color: rgb(191, 150, 99, .5);
+}
+
+.volverAlInicio a svg{
+    transition: all .3s ease;
+}
+
+.volverAlInicio a:hover svg{
+    stroke: rgb(191, 150, 99, .5);
+    padding-right: .5rem;
+}
+
+.tituloPlantilla1{
+    padding-inline: 2rem;
+    margin-top: 2rem;
+}
+
+.tituloPlantilla1 h1{
+    border-bottom: 1px solid rgb(51, 51, 51, .2);
+    padding-inline: 1rem;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    font-family: var(--font-manhattan);
+    font-size: 3rem;
+}
+
+.contenedorPlantilla1{
+    width: 100%;
+    padding: 1rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cuerpoPlantilla1{
+    width: calc(75% - 2rem);
+    background-color: rgb(191, 150, 99, .1);
+    border-radius: .5rem;
+    padding: 3rem 3rem;
+}
+
+.cuerpoPlantilla1 p{
+    margin: auto;
+    font-size: 1.5rem;
+    text-indent: 35px;
+}
+
+.cuerpoPlantilla1 p:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+
+.cuerpoPlantilla1 h4{
+    margin-top: 2rem;
+    text-align: end;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.cuerpoPlantilla1 h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(51, 51, 51, .7);
+    text-align: end;
+}
+
+.imagenesPlantilla1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.imagenesPlantilla1 img{
+    width: 100%;
+    border-radius: .5rem;
+}

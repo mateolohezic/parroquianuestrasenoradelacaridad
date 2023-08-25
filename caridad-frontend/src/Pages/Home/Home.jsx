@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css'
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
-import nombrePadre from '../../assets/nombrePadreNegro.png'
+import nombrePadre from '../../assets/nombrePadreNegroAños.png'
 
 function Home() {
 
@@ -31,12 +31,12 @@ function Home() {
       <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
     </div>
     <div className='fraseInicialHome'>
-      <p>El gran fruto de mi encuentro con Jorge, fue que me enseñó a no centrarme en los lógicos temores ante tamaña decisión, sino más bien, a poner toda mi confianza en <strong>Jesucristo.</strong></p>
+      <p>"El gran fruto de mi encuentro con Jorge, fue que me enseñó a no centrarme en los lógicos temores ante tamaña decisión, sino más bien, a poner toda mi confianza en <strong>Jesucristo.</strong>"</p>
       <span>Pbro. Lic. Horacio A. Gómez</span>
       <div className='leerMasHome'>
         <a href="/">
           Leer más
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" stroke-width="1" stroke="#BF9663" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1" stroke="#BF9663" fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M9 6l6 6l-6 6" />
           </svg>
@@ -45,64 +45,69 @@ function Home() {
     </div>
     <div className='bandaImagenHome'></div>
     <div className='biografiaHome'>
-      <p>En su afán de profundizar sobre la Eucaristía, en el año 2004 se comunicó con Mons. Puyelli, a quien le manifestó su deseo de tener una Capilla de Adoración Perpetua en su parroquia. Fue providencial que en ese momento estuviera con el Padre Patricio Hileman, misionero de Nuestra Señora del Santísimo Sacramento, quien de inmediato se puso a disposición y en diciembre de ese mismo año vino a catequizar a los fieles de la parroquia para organizar la Adoración Eucarística Perpetua.</p>
+      <p>En las Parroquias de Yerba Buena y en todas las Capillas, nos encontramos con gente que se acercó a la Iglesia en la época en que el Padre Jorge impulsaba las actividades.</p>
+      <p>Muchos Matrimonios y Familias viven hoy su Vida Sacramental gracias al sostén que el Padre Jorge logró durante su presencia entre nosotros.</p>
+      <p>Pero a mi criterio, el fruto más acabo de su tarea en nuestro tiempo y que queda como su legado, es la presencia y continuidad de los Adoradores.</p>
+      <div className='leerMasHome'>
+        <a href="/">
+          Leer más
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1" stroke="#BF9663" fill="none" strokeLinecap="round" strokeLinejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M9 6l6 6l-6 6" />
+          </svg>
+        </a>
+      </div>
     </div>
     <div className='lineaDivisora'></div>
-    <div className='obrasHome'>
+    <div className='obrasHome' id='susObras'>
       <h2>Sus obras</h2>
       <Carousel infinite autoPlay pauseOnHover arrows={true} containerClass='carouselObrasHome' responsive={responsiveCarousel}>
         <div className='cardObrasHome'>
-          <div className='contenedorImagenCardObrasHome'>
-            <h5>Fecha</h5>
+          <div className='contenedorImagenCardObrasHome caridadImagenCardObrasHome'>
           </div>
           <div className='nombreCardObrasHome'>
-            <h4>Oratorio</h4>
+            <h4>Parroquia Nuestra Señora de la Caridad</h4>
           </div>
         </div>
         <div className='cardObrasHome'>
-          <div className='contenedorImagenCardObrasHome'>
-            <h5>Fecha</h5>
+          <div className='contenedorImagenCardObrasHome divinaMisericordiaImagenCardObrasHome'>
           </div>
           <div className='nombreCardObrasHome'>
-            <h4>Oratorio</h4>
+            <h4>Colegio y Capilla Divina Misericordia</h4>
           </div>
         </div>
         <div className='cardObrasHome'>
-          <div className='contenedorImagenCardObrasHome'>
-            <h5>Fecha</h5>
+          <div className='contenedorImagenCardObrasHome sanAntonioImagenCardObrasHome'>
           </div>
           <div className='nombreCardObrasHome'>
-            <h4>Oratorio</h4>
+            <h4>Capilla San Antonio de Padua</h4>
           </div>
         </div>
         <div className='cardObrasHome'>
-          <div className='contenedorImagenCardObrasHome'>
-            <h5>Fecha</h5>
+          <div className='contenedorImagenCardObrasHome oratorioImagenCardObrasHome'>
           </div>
           <div className='nombreCardObrasHome'>
-            <h4>Oratorio</h4>
+            <h4>Capilla de Adoración Perpetua</h4>
           </div>
         </div>
         <div className='cardObrasHome'>
-          <div className='contenedorImagenCardObrasHome'>
-            <h5>Fecha</h5>
+          <div className='contenedorImagenCardObrasHome rosarioImagenCardObrasHome'>
           </div>
           <div className='nombreCardObrasHome'>
-            <h4>Oratorio</h4>
+            <h4>Capilla Nuestra Señora del Rosario de San Nicolás</h4>
           </div>
         </div>
         <div className='cardObrasHome'>
-          <div className='contenedorImagenCardObrasHome'>
-            <h5>Fecha</h5>
+          <div className='contenedorImagenCardObrasHome divinoNiñoImagenCardObrasHome'>
           </div>
           <div className='nombreCardObrasHome'>
-            <h4>Oratorio</h4>
+            <h4>Capilla Divino Niño</h4>
           </div>
         </div>
       </Carousel>
     </div>
     <div className='lineaDivisora'></div>
-    <div className='niñezVocacionHome'>
+    <div className='niñezVocacionHome' id='suVida'>
       <div className='niñezAdolescenciaHome'><h5>Niñez y adolescencia</h5></div>
       <div className='vocacionHome'><h5>Vocación</h5></div>
     </div>
@@ -114,11 +119,79 @@ function Home() {
       <div className='leerMasHome'>
         <a href="/">
           Leer más
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" stroke-width="1" stroke="#BF9663" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1" stroke="#BF9663" fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M9 6l6 6l-6 6" />
           </svg>
         </a>
+      </div>
+    </div>
+    <div className='lineaDivisora'></div>
+    <div className='mariaHome' id='Maria'>
+      <div className='contenedorParrafosMariaHome'>
+        <div className='columna1MariaHome'>
+          <h3>Virgen de la Eucaristía</h3>
+          <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+          <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+          <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+        </div>
+        <div className='columna2MariaHome'>
+          <h3>Consagrados a María</h3>
+          <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+          <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+          <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+        </div>
+      </div>
+      <div className='columna3MariaHome'></div>
+    </div>
+    <div className='lineaDivisora'></div>
+    <div className='apostoladoHome' id='Grupos'>
+      <h2>Apostolado de grupos</h2>
+      <div className='contenedorCardsApostoladoHome'>
+        <div className='cardApostoladoHome ACCardApostoladoHome'><h5>Acción Catolica</h5></div>
+        <div className='cardApostoladoHome MEPCardApostoladoHome'><h5>MEP</h5></div>
+        <div className='cardApostoladoHome orquestaCardApostoladoHome'><h5>Orquesta del Divino Niño</h5></div>
+        <div className='cardApostoladoHome santaTeresitaCardApostoladoHome'><h5>Santa Teresita del Niño Jesús</h5></div>
+      </div>
+    </div>
+    <div className='lineaDivisora'></div>
+    <div className='cristoHoyHome' id='CristoHoy'>
+      <div className='imagenCristoHoyHome'></div>
+      <div className='textoCristoHoyHome'>
+        <h2>¡Cristo Hoy!</h2>
+        <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+        <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+        <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+        <div className='leerMasHome'>
+          <a href="/">
+            Leer más
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1" stroke="#BF9663" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M9 6l6 6l-6 6" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div className='bandaImagen2Home'></div>
+    <div className='sueñoCumplirHome' id='sueñoXCumplir'>
+      <div className='contenedorSueñoCumplirHome'>
+        <div className='textoSueñoCumplirHome'>
+          <h2>Un sueño por cumplir</h2>
+          <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+          <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+          <p>Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba. Su tarea no paso desapercibida. Le puso su sello de bondad, humildad y entusiasmo que lo caracterizaba.</p>
+          <div className='leerMasHome'>
+            <a href="/">
+              Leer más
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1" stroke="#BF9663" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 6l6 6l-6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div className='imagenSueñoCumplirHome'></div>
       </div>
     </div>
   </>
