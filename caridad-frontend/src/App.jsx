@@ -31,7 +31,7 @@ function App() {
     <>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/*" element={<Home/>} />
         <Route path="/En-memoria-del-padre-jorge-gandur-pbro-lic-horacio-a-gomez" element={<NotaPadreHoracio/>} />
         <Route path="/La-llegada-del-padre-jorge-a-la-caridad" element={<NotaLlegadaCaridad/>} />
         <Route path="/La-capilla-y-el-colegio-divina-misericordia" element={<NotaCapillaColegioDivinaMisericordia/>} />
@@ -44,14 +44,11 @@ function App() {
         <Route path="/Capilla-de-adoracion-perpetua-corazon-eucaristico-de-jesus" element={<NotaOratorio/>} />
         <Route path="/Accion-catolica-accion" element={<NotaAccionCatolica/>} />
         <Route path="/El-padre-jorge-gandur-y-cristo-hoy" element={<NotaCristoHoy/>} />
-        <Route path="/La-capilla-nuestra-señora-del-rosario-de-san-nicolas" element={<NotaCapillaRosario/>} />
+        <Route path="/La-capilla-nuestra-senora-del-rosario-de-san-nicolas" element={<NotaCapillaRosario/>} />
         <Route path="/La-capilla-divino-nino" element={<NotaDivino/>} />
         <Route path="/El-padre-jorge-gandur-y-la-orquesta-del-divino-nino" element={<NotaOrquesta/>} />
         <Route path="/El-padre-gandur-y-las-charlas-de-consagracion-a-la-virgen" element={<NotaConsagracion/>} />
         <Route path="/Testimonio-del-padre-sobre-la-virgen-de-la-eucaristia" element={<NotaVirgenEucaristia/>} />
-        <Route path="/1" element={<Plantilla1/>} />
-        <Route path="/2" element={<Plantilla2/>} />
-        <Route path="/3" element={<Plantilla3/>} />
       </Routes>
       <Footer/>
     </>

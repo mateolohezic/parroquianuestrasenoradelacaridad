@@ -98,7 +98,7 @@ function Home() {
             </div>
           </div>
         </a>
-        <a href="/La-capilla-nuestra-señora-del-rosario-de-san-nicolas">
+        <a href="/La-capilla-nuestra-senora-del-rosario-de-san-nicolas">
           <div className='cardObrasHome'>
             <div className='contenedorImagenCardObrasHome rosarioImagenCardObrasHome'>
             </div>

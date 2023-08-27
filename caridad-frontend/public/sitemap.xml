@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
    <url>
-      <loc>https://stannumgame.com/</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/</loc>
 
       <lastmod>2023-06-01</lastmod>
 
@@ -13,193 +13,173 @@
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Iniciar-sesion</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/En-memoria-del-padre-jorge-gandur-pbro-lic-horacio-a-gomez</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
-
-      <priority>0.9</priority>
-   </url>
-
-   <url>
-      <loc>https://stannumgame.com/Recuperar-contraseña/Email</loc>
-
-      <lastmod>2023-06-01</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.8</priority>
-   </url>
-
-   <url>
-      <loc>https://stannumgame.com/Recuperar-contraseña/Nueva-contraseña/</loc>
-
-      <lastmod>2023-06-01</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.8</priority>
-   </url>
-
-   <url>
-      <loc>https://stannumgame.com/Perfil/</loc>
-
-      <lastmod>2023-06-01</lastmod>
-
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Ranking/Inicio</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/La-llegada-del-padre-jorge-a-la-caridad</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
-
-      <priority>0.7</priority>
-   </url>
-
-   <url>
-      <loc>https://stannumgame.com/Ranking/Directivo</loc>
-
-      <lastmod>2023-06-01</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.9</priority>
-   </url>
-
-   <url>
-      <loc>https://stannumgame.com/Administracion/Jugadores</loc>
-
-      <lastmod>2023-06-01</lastmod>
-
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Administracion/Test/Directivo/Resultados/</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/La-capilla-y-el-colegio-divina-misericordia</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Administracion/EditarPerfil/</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/Jorge-niñez-y-adolescencia</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Historial/Acciones</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/La-capilla-san-antonio-de-padua</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Test/Dominio/Directivo</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/Un-sueño-por-cumplir</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
-
-      <priority>0.6</priority>
-   </url>
-
-   <url>
-      <loc>https://stannumgame.com/Test/Dominio/Directivo/1</loc>
-
-      <lastmod>2023-06-01</lastmod>
-
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Test/Dominio/Directivo/2</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/Una-vocacion-del-pbro-jorge-antonio-gandur</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Test/Dominio/Directivo/3</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/Testimonio-del-padre-jorge-gandur</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Test/Dominio/Directivo/4</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/Cuanta-gratitud-a-nuestro-querido-padre-jorge</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Test/Dominio/Directivo/5</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/Capilla-de-adoracion-perpetua-corazon-eucaristico-de-jesus</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Test/Dominio/Directivo/6</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/Accion-catolica-accion</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/Test/Dominio/Directivo/Felicidades</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/El-padre-jorge-gandur-y-cristo-hoy</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://stannumgame.com/404</loc>
+      <loc>https://parroquianuestrasenoradelacaridad.com/La-capilla-nuestra-senora-del-rosario-de-san-nicolas</loc>
 
       <lastmod>2023-06-01</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 
-      <priority>0.1</priority>
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://parroquianuestrasenoradelacaridad.com/La-capilla-divino-nino</loc>
+
+      <lastmod>2023-06-01</lastmod>
+
+      <changefreq>never</changefreq>
+
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://parroquianuestrasenoradelacaridad.com/El-padre-jorge-gandur-y-la-orquesta-del-divino-nino</loc>
+
+      <lastmod>2023-06-01</lastmod>
+
+      <changefreq>never</changefreq>
+
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://parroquianuestrasenoradelacaridad.com/El-padre-gandur-y-las-charlas-de-consagracion-a-la-virgen</loc>
+
+      <lastmod>2023-06-01</lastmod>
+
+      <changefreq>never</changefreq>
+
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://parroquianuestrasenoradelacaridad.com/Testimonio-del-padre-sobre-la-virgen-de-la-eucaristia</loc>
+
+      <lastmod>2023-06-01</lastmod>
+
+      <changefreq>never</changefreq>
+
+      <priority>0.5</priority>
    </url>
 
 </urlset> 
