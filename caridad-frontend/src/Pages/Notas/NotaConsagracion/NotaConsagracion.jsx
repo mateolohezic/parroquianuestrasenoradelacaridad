@@ -3,10 +3,18 @@ import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/consagracion1.jpg'
 import foto2 from '../../../assets/Photos/maria1.jpg'
 import foto3 from '../../../assets/Photos/consagracion2.jpeg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaConsagracion() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='El Padre Jorge Gandur fue un sacerdote que profesaba una especial devoción a la Santísima Virgen María. Todos recordamos su vozarrón inconfundible cantando: "Un día al cielo iré y la contemplaré." Ese gran amor a la Madre de Dios lo impulsó a promover, alentar y difundir la preparación de sus fieles para la Consagración al Inmaculado Corazón de María, como respuesta al pedido especial de Nuestra Señora en su aparición en Fátima, Portugal.' />
+                <meta name="subject" content="El Padre Gandur y las charlas de Consagración a la Virgen - Padre Jorge Gandur" />
+                <title>El Padre Gandur y las charlas de Consagración a la Virgen - Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

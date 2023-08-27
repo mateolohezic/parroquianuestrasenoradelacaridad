@@ -2,10 +2,18 @@ import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/sueño1.jpg'
 import foto2 from '../../../assets/Photos/sueño2.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaSueñoPosible() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='Este proyecto fue solicitado por el Párroco Horacio Gómez, en respuesta a un viejo deseo del Padre Jorge Gandur, de construir un templo Parroquial más amplio y cómodo que estuviera a la altura del crecimiento que había experimentado la comunidad religiosa de esta Parroquia.' />
+                <meta name="subject" content="Un sueño por cumplir - Padre Jorge Gandur" />
+                <title>Un sueño por cumplir | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>
@@ -19,7 +27,7 @@ function NotaSueñoPosible() {
             </a>
         </div>
         <div className='tituloPlantilla1'>
-            <h1>¿Cuándo comenzamos a realizar este sueño?</h1>
+            <h1>Un sueño por cumplir</h1>
         </div>
         <div className='contenedorPlantilla3'>
             <div className='cuerpoPlantilla3'>

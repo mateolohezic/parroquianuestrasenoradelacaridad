@@ -1,10 +1,18 @@
 import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/amigos4.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaCristoHoy() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='Soy el padre Mauro Carlorosi, sacerdote del Oratorio de San Felipe Neri, miembro de Cristo Hoy desde 1999. Conocí al padre Jorge cuando ayudaba con la catequesis en el barrio 2 de septiembre, en 1998 y 1999. Las clases se daban bajo una higuera y en casa de doña María. Me tocó fundirle una camioneta cuando me la prestó para ir llevando chicos. Fue él quien me presentó al padre Juan Eduardo Arnau, para trabajar en Cristo Hoy, a fines de 1999.' />
+                <meta name="subject" content="El Padre Jorge Gandur y Cristo Hoy - Padre Jorge Gandur" />
+                <title>El Padre Jorge Gandur y Cristo Hoy - Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>
@@ -18,7 +26,7 @@ function NotaCristoHoy() {
             </a>
         </div>
         <div className='tituloPlantilla1'>
-            <h1>El padre Jorge Gandur y Cristo Hoy</h1>
+            <h1>El Padre Jorge Gandur y Cristo Hoy</h1>
         </div>
         <div className='contenedorPlantilla2'>
             <div className='cuerpoPlantilla2'>

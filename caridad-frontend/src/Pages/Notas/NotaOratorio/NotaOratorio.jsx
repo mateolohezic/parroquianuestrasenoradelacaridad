@@ -3,10 +3,18 @@ import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/oratorio2.jpg'
 import foto2 from '../../../assets/Photos/oratorio1.jpg'
 import foto3 from './sacerdote13.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaOratorio() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='El Padre Jorge Gandur tenía un profundo amor a la Eucaristía. Numerosos hechos de su vida lo unieron a ella. La tesis de su doctorado en Roma, providencialmente fue sobre la Eucaristía.' />
+                <meta name="subject" content="Capilla de Adoración Perpetua Corazón Eucarístico de Jesús - Padre Jorge Gandur" />
+                <title>Capilla de Adoración Perpetua Corazón Eucarístico de Jesús | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>
@@ -20,7 +28,7 @@ function NotaOratorio() {
             </a>
         </div>
         <div className='tituloPlantilla1'>
-            <h1>Capilla de Adoración Perpetua "Corazón Eucarístico de Jesús"</h1>
+            <h1>Capilla de Adoración Perpetua Corazón Eucarístico de Jesús</h1>
         </div>
         <div className='contenedorPlantilla1'>
             <div className='cuerpoPlantilla1'>

@@ -2,10 +2,18 @@ import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/divino.jpg'
 import foto2 from '../../../assets/Photos/divino2.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaDivino() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='Conocí al padre Jorge en Semana Santa del 2000. Una amiga en común nos presentó. Un mes después, lo llamé para ofrecerme a colaborar en sus obras con los más necesitados.' />
+                <meta name="subject" content="La Capilla Divino Niño - Padre Jorge Gandur" />
+                <title>La Capilla Divino Niño - Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

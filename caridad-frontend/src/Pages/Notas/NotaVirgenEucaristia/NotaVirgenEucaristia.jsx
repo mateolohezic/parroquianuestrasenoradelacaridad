@@ -1,10 +1,18 @@
 import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/maria1.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaVirgenEucaristia() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='Después de la celebración de la Santa Misa, un jueves 30 de Octubre de 2003, llegaron dos señoras a pedir la bendición del agua. A una de ellas la conocía, a la otra no.' />
+                <meta name="subject" content="Testimonio del Padre sobre La Virgen de la Eucaristía - Padre Jorge Gandur" />
+                <title>Testimonio del Padre sobre La Virgen de la Eucaristía | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

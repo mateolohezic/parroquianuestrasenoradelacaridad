@@ -1,10 +1,18 @@
 import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/rosario.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaCapillaRosario() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content="En el año 1995 la Municipalidad de Yerba Buena anunció a los vecinos la disponibilidad de un terreno en Calle Salas y Valdez 102. El proyecto municipal contemplaba la construcción de un dispensario o una plaza, a consideración del vecindario. Puesto al tanto de la situación, nuestro párroco de aquel entonces, el padre Jorge Gandur, con el apoyo de los vecinos, consiguió modificar el proyecto municipal y adquirir el terreno para construcción de una Capilla." />
+                <meta name="subject" content="La Capilla Nuestra Señora del Rosario de San Nicolás - Padre Jorge Gandur" />
+                <title>La Capilla Nuestra Señora del Rosario de San Nicolás - Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

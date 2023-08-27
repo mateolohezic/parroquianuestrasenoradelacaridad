@@ -1,10 +1,18 @@
 import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/orquesta1.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaOrquesta() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='Hace 16 años fui a tocar el violín a los niños de catequesis de la capilla del Divino Niño. Una nena me preguntó... ¿Cómo hago yo para aprender?' />
+                <meta name="subject" content="El Padre Jorge Gandur y la Orquesta del Divino Niño - Padre Jorge Gandur" />
+                <title>El Padre Jorge Gandur y la Orquesta del Divino Niño | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

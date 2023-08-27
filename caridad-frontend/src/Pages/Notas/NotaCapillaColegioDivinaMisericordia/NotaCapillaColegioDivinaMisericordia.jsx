@@ -4,10 +4,18 @@ import foto1 from '../../../assets/Photos/divina1.jpg'
 import foto2 from '../../../assets/Photos/colegioDivina3.jpeg'
 import foto3 from '../../../assets/Photos/colegioDivina1.jpg'
 import foto4 from '../../../assets/Photos/divina3.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaCapillaColegioDivinaMisericordia() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content="En el año 1993 comienza a gestarse a través de las Señoras de Acción Católica de la Parroquia Nuestra Señora de la Caridad, en sus visitas domiciliarias en el Barrio Nicolás Avellaneda IV, la necesidad de la presencia del Señor en dicho barrio." />
+                <meta name="subject" content="La capilla y el colegio divina misericordia - Padre Jorge Gandur" />
+                <title>La capilla y el colegio divina misericordia - Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

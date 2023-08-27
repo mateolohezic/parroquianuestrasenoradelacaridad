@@ -4,10 +4,18 @@ import foto1 from '../../../assets/Photos/sacerdote1.jpg'
 import foto2 from '../../../assets/Photos/vocacion2.jpg'
 import foto3 from '../../../assets/Photos/caridad3.jpg'
 import foto4 from '../../../assets/Photos/vocacion1.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaPadreHoracio() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='En el año 1976, cuando fui al seminario de Tucumán a averiguar los requisitos para ingresar, me encontré con un joven de sotana que me recibió con mucha alegría, como quien va a comprarle algo, y él por su parte me ofrecía su maravillosa mercancía.' />
+                <meta name="subject" content="En memoria del Padre Jorge Gandur - Padre Jorge Gandur" />
+                <title>En memoria del Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

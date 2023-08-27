@@ -1,10 +1,18 @@
 import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/niñez2.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaNiñezAdolescencia() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='En Jorge se cumplió la palabra de Jeremías que relata en su libro al referir su vocación &quot;el Señor me dijo: antes de que salieras del seno de tu madre, yo te había consagrado&quot;.' />
+                <meta name="subject" content="Jorge, niñez y adolescencia - Padre Jorge Gandur" />
+                <title>Jorge, niñez y adolescencia | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

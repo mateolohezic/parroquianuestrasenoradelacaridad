@@ -1,10 +1,18 @@
 import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/sacerdote5.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaTestimonioPadre() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='Vienen a mi memoria, gratos recuerdos del Padre Jorge Gandur, en su paso por la ciudad de Famailla, como Párroco de la Iglesia Nuestra Señora del Carmen.' />
+                <meta name="subject" content="Testimonio del Padre Jorge Gandur - Padre Jorge Gandur" />
+                <title>Testimonio del Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

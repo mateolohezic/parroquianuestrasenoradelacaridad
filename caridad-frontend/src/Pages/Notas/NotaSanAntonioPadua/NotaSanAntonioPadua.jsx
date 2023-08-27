@@ -1,10 +1,18 @@
 import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import fotoPrueba from '../../../assets/Photos/sanAntonio.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaSanAntonioPadua() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='Con agrado les dirijo a Ustedes algunos aspectos que se destacaron en el desempeño y distintas vivencias del Padre Jorge Gandur en sus años como primer Párroco de Nuestra Señora de la Caridad de Yerba Buena.' />
+                <meta name="subject" content="La Capilla San Antonio de Padua - Padre Jorge Gandur" />
+                <title>La Capilla San Antonio de Padua | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

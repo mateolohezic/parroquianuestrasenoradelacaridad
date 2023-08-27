@@ -5,10 +5,18 @@ import foto2 from '../../../assets/Photos/ac2.jpg'
 import foto3 from '../../../assets/Photos/ac3.jpg'
 import foto4 from '../../../assets/Photos/ac4.jpg'
 import foto5 from '../../../assets/Photos/ac5.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaAccionCatolica() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content="Su paso por nuestras vidas fue así, como su vida: una aventura de lo cotidiano. Pensar en aquellos tiempos: junta amigos, activa grupos de Whatsapp; y, sobre todo, dibuja una sonrisa en varias, ya no tan jóvenes caras… sonrisas que quedarán marcadas para siempre en mi corazón." />
+                <meta name="subject" content="Acción Católica: ¡Acción! - Padre Jorge Gandur" />
+                <title>Acción Católica: ¡Acción! - Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

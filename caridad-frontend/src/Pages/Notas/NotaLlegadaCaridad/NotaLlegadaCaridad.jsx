@@ -1,10 +1,18 @@
 import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/caridad1.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaLlegadaCaridad() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='Para dimensionar el impacto de la llegada del Padre Jorge a la Capilla Nuestra Señora de la Caridad, necesariamente debemos recordar cómo era atendida en esa época. Las celebraciones de la Santa Misa en la Capilla fueron atendidas durante mucho tiempo por los Presbíteros Dionisio Fuentes, Silvio Medina y Vitalino Treco, que colaboraron activamente en la atención espiritual de los fieles de la zona. La decisión del Arzobispado de erigir la Parroquia Nuestra Señora de la Caridad y San Antonio fue muy acertada a fin de dar un fuerte impulso a la presencia de la Iglesia en la zona norte de Yerba Buena.' />
+                <meta name="subject" content="La llegada del Padre Jorge a La Caridad - Padre Jorge Gandur" />
+                <title>La llegada del Padre Jorge a La Caridad | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

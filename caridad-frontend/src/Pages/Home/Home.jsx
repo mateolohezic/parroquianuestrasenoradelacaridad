@@ -31,7 +31,6 @@ function Home() {
     <HelmetProvider>
         <Helmet>
             <meta name="description" content="El padre Jorge Gandur fue el primer párroco de la parroquia Nuestra señora de La Caridad. Obró siempre con amor y dedicación, poniendo a la comunidad y el amor a María y a Dios sobre todas las cosas." />
-            <meta name="keywords" content="Nuestra, señora, senora, caridad, parroquia, yerba, buena, Tucumán, Tucuman, argentina, iglesia, misa, dios, católico" />
             <meta name="subject" content="Padre Jorge Gandur" />
             <title>Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
         </Helmet>
@@ -71,7 +70,7 @@ function Home() {
     <div className='obrasHome' id='susObras'>
       <h2>Sus obras</h2>
       <Carousel infinite autoPlay pauseOnHover arrows={true} containerClass='carouselObrasHome' responsive={responsiveCarousel}>
-        <a href="/La-capilla-y-el-colegio-divina-misericordia">
+        <a href="/La-llegada-del-padre-jorge-a-la-caridad">
           <div className='cardObrasHome'>
             <div className='contenedorImagenCardObrasHome caridadImagenCardObrasHome'>
             </div>
@@ -194,7 +193,7 @@ function Home() {
         <a href="/Accion-catolica-accion" className='cardApostoladoHome'>
           <div className='ACCardApostoladoHome'><h5>Acción Católica</h5></div>
         </a>
-        <a href="/" className='cardApostoladoHome'>
+        <a href="/#" className='cardApostoladoHome'>
           <div className='MEPCardApostoladoHome'><h5>MEP</h5></div>
         </a>
         <a href="/El-padre-jorge-gandur-y-la-orquesta-del-divino-nino" className='cardApostoladoHome'>

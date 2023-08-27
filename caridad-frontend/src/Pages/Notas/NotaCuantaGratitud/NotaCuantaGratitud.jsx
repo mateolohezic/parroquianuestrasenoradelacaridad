@@ -1,10 +1,18 @@
 import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/sacerdote12.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaCuantaGratitud() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='Fue nuestro director espiritual y el de muchas almas. A través de su vida pudimos descubrir a Cristo. Mediante su obrar pudimos comprender cuánto amor a Jesús y a María había en su interior. Era un sacerdote comprometido, adorador en espíritu y en verdad. Fue instrumento fiel y dócil, incansable, porque Dios obraba en Él.' />
+                <meta name="subject" content="En memoria del Padre Jorge Gandur - Padre Jorge Gandur" />
+                <title>En memoria del Padre Jorge Gandur - Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>

@@ -3,10 +3,18 @@ import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/vocacion1.jpg'
 import foto2 from '../../../assets/Photos/sacerdote8.jpg'
 import foto3 from '../../../assets/Photos/vocacion2.jpg'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function NotaVocacion() {
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content='Conocí al padre Jorge cuando tenía 7 años cuando estaba en la catequesis recuerdo que todos los sábados nos iba a visitar a la catequesis y nos hacía preguntas y también bromas. Siempre fue una persona que supo conjugar la seriedad y el buen sentido del humor. Con el paso del tiempo empecé a ayudarle en misa en la sede parroquial. Algunas veces, nos pedía a los monaguillos que le acompañemos a otras capillas y con mucha ilusión íbamos, en el camino rezábamos El Rosario o él nos contaba alguna anécdota pastoral creo que ese estilo poco a poco fue despertando en mí la pregunta: ¿por qué no ser sacerdote?.' />
+                <meta name="subject" content="Una vocación del Pbro. Jorge Antonio Gandur - Padre Jorge Gandur" />
+                <title>Una vocación del Pbro. Jorge Antonio Gandur | Parroquia Nuestra señora de La Caridad</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='portadaHome'>
             <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
         </div>
