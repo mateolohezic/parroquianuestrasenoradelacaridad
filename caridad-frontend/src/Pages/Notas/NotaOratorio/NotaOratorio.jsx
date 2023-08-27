@@ -2,7 +2,7 @@ import React from 'react'
 import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/oratorio2.jpg'
 import foto2 from '../../../assets/Photos/oratorio1.jpg'
-import foto3 from '../../../assets/Photos/sacerdote12.jpg'
+import foto3 from './sacerdote13.jpg'
 
 function NotaOratorio() {
     return (
