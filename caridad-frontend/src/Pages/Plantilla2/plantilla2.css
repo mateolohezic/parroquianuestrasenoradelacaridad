@@ -9,7 +9,7 @@
 
 .cuerpoPlantilla2{
     width: 100%;
-    background-color: rgb(191, 150, 99, .1);
+    background-color: rgb(237, 229, 221);
     border-radius: .5rem;
     padding: 3rem 3rem;
 }
@@ -40,13 +40,95 @@
 
 .imagenesPlantilla2{
     width: 100%;
-    height: 400px;
     margin-bottom: 3rem;
 }
 
 .imagenesPlantilla2 img{
     width: 100%;
-    height: 400px;
-    object-fit: cover;
-    object-position: center 30%;
+}
+  
+@media (max-width: 576px) {
+
+    .contenedorPlantilla2Responsive{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .contenedorPlantilla2{
+        padding-inline: 1rem;
+    }
+
+    .cuerpoPlantilla2{
+        padding: 1rem 1rem;
+    }
+
+    .cuerpoPlantilla2 p{
+        font-size: 1rem;
+    }
+    
+    .cuerpoPlantilla2 p:not(:last-child){
+        margin-bottom: 1rem;
+    }
+
+    .cuerpoPlantilla2 h4{
+        font-size: 1.2rem;
+    }
+    
+    .cuerpoPlantilla2 h5{
+        font-size: 0.7rem;
+    }
+
+    .imagenesPlantilla2{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .cuerpoPlantilla2{
+        padding: 2rem 2rem;
+    }
+
+    .contenedorPlantilla2Responsive{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .contenedorPlantilla2{
+        padding-inline: 1rem;
+    }
+
+    .cuerpoPlantilla2 p{
+        font-size: 1rem;
+    }
+    
+    .cuerpoPlantilla2 p:not(:last-child){
+        margin-bottom: 1rem;
+    }
+
+    .cuerpoPlantilla2 h4{
+        font-size: 1.2rem;
+    }
+    
+    .cuerpoPlantilla2 h5{
+        font-size: 0.7rem;
+    }
+
+    .imagenesPlantilla2{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+}
+
+@media (min-width: 1920px) {
+
 }

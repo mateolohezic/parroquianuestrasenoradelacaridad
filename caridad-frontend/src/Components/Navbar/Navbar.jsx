@@ -1,9 +1,12 @@
 import React from 'react';
 import './navbar.css'
+import { useLocation } from 'react-router-dom';
 import logo from '../../assets/logoBlanco.png'
 
 function Navbar() {
     
+    const location = useLocation();
+
     return (
     <>
         <nav className="navbar navbar-expand-lg sticky-top animate__animated animate__fadeInDown">
@@ -21,27 +24,38 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarPrincipal">
                     <ul className="navbar-nav ms-auto">
-                        <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="/1">Inicio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/#susObras">Obras</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/#suVida">Su vida</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/#Maria">María</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/#Grupos">Grupos</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/#CristoHoy">Cristo Hoy</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/#sueñoXCumplir">Sueño por cumplir</a>
-                        </li>
+                        {
+                        location.pathname === '/' || location.pathname.includes('/#') ?
+                        <>
+                            <li className="nav-item">
+                                <a className="nav-link" aria-current="page" href="/">Inicio</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#susObras">Obras</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#suVida">Su vida</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#Maria">María</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#Grupos">Grupos</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#CristoHoy">Cristo Hoy</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#sueñoXCumplir">Sueño por cumplir</a>
+                            </li>
+                        </>
+                        :
+                        <>
+                            <li className="nav-item">
+                                <a className="nav-link" aria-current="page" href="/">Inicio</a>
+                            </li>
+                        </>
+                        }
                     </ul>
                 </div>
             </div>

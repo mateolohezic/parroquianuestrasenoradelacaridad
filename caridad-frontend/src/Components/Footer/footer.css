@@ -2,9 +2,45 @@ footer{
     background-color: var(--dorado);
     width: 100%;
     text-align: end;
-    padding: 2rem 3rem 2rem 0rem
+    padding: 2rem 3rem 2rem 0rem;
 }
 
-footer img{
-    width: 10%;
+@media (max-width: 576px) {
+
+    footer{
+        padding: 2rem 1rem 2rem 1rem;
+        text-align: center;
+    }
+
+    footer img{
+        width: 200px;
+    }  
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    footer img{
+        width: 200px;
+    }  
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    footer img{
+        width: 200px;
+    }  
+}
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+    footer img{
+        width: 200px;
+    }  
+}
+
+@media (min-width: 1920px) {
+
+    footer img{
+        width: 250px;
+    }  
 }

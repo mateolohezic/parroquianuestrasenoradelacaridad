@@ -9,7 +9,7 @@
 
 .cuerpoPlantilla3{
     width: calc(75% - 2rem);
-    background-color: rgb(191, 150, 99, .1);
+    background-color: rgb(237, 229, 221);
     border-radius: .5rem;
     padding: 3rem 3rem;
 }
@@ -48,4 +48,120 @@
 .imagenesPlantilla3 img{
     width: 100%;
     border-radius: .5rem;
+}
+  
+@media (max-width: 576px) {
+
+    .contenedorPlantilla3{
+        padding-inline: 1rem;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .cuerpoPlantilla3{
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+
+    .imagenesPlantilla3{
+        width: 100%;
+    }
+
+    .cuerpoPlantilla3 p{
+        font-size: 1rem;
+    }
+
+    .cuerpoPlantilla3 p:not(:last-child){
+        margin-bottom: 1rem;
+    }
+
+    .cuerpoPlantilla3 h4{
+        font-size: 1.2rem;
+    }
+    
+    .cuerpoPlantilla3 h5{
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .contenedorPlantilla3{
+        padding-inline: 1rem;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .cuerpoPlantilla3{
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+
+    .imagenesPlantilla3{
+        width: 100%;
+    }
+
+    .cuerpoPlantilla3 p{
+        font-size: 1rem;
+    }
+
+    .cuerpoPlantilla3 p:not(:last-child){
+        margin-bottom: 1rem;
+    }
+
+    .cuerpoPlantilla3 h4{
+        font-size: 1.2rem;
+    }
+    
+    .cuerpoPlantilla3 h5{
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .cuerpoPlantilla3{
+        width: calc(75% - 2rem);
+        padding: 3rem 3rem;
+    }
+
+    .imagenesPlantilla3{
+        width: 25%;
+    }
+
+    .cuerpoPlantilla3 p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+    .cuerpoPlantilla3{
+        width: calc(75% - 2rem);
+        padding: 3rem 3rem;
+    }
+
+    .imagenesPlantilla3{
+        width: 25%;
+    }
+
+    .cuerpoPlantilla3 p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .cuerpoPlantilla3{
+        width: calc(75% - 2rem);
+        padding: 3rem 3rem;
+    }
+
+    .imagenesPlantilla3{
+        width: 25%;
+    }
+
+    .cuerpoPlantilla3 p{
+        font-size: 1.5rem;
+    }
 }

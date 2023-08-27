@@ -1,9 +1,7 @@
 .portadaHome{
     width: 100%;
-    height: 400px;
     text-align: center;
     background-image: url("../../assets/fotoPadre.jpeg");
-    background-position: 50% 30%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -12,25 +10,16 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-left: 10rem;
-}
-
-.portadaHome img{
-    height: 250px;
 }
 
 .fraseInicialHome{
     width: 100%;
-    padding: 3rem 2rem;
     text-align: end;
 }
 
 .fraseInicialHome p{
-    padding-inline: 2rem;
     color: var(--dorado);
     text-align: center;
-    font-size: 3rem;
-    line-height: 3.3rem;
     font-weight: 300;
 }
 
@@ -39,8 +28,9 @@
 }
 
 .fraseInicialHome span{
-    font-size: 1.5rem;
     font-weight: 600;
+    margin-top: 2rem;
+    display: block;
 }
 
 .leerMasHome{
@@ -83,15 +73,11 @@
 
 .biografiaHome{
     width: 100%;
-    padding: 3rem 2rem;
 }
 
 .biografiaHome p{
-    width: 50%;
     margin: auto;
     text-align: center;
-    font-size: 1.5rem;
-    line-height: 1.65rem;
     font-weight: 300;
 }
 
@@ -100,8 +86,6 @@
 }
 
 .lineaDivisora{
-    height: 2px;
-    width: 60%;
     margin: auto;
     border-radius: .5rem;
     background-color: var(--linea-divisora);
@@ -113,12 +97,15 @@
 }
 
 .obrasHome h2{
-    font-size: 2.5rem;
     font-family: var(--font-manhattan);
 }
 
 .carouselObrasHome{
     margin-top: 1rem;
+}
+
+.carouselObrasHome a {
+    text-decoration: none;
 }
 
 .cardObrasHome{
@@ -127,7 +114,6 @@
     flex-direction: column;
     padding: 2rem;
     width: 95%;
-    cursor: pointer;
     transition: all 0.3s ease;
 }
 
@@ -184,26 +170,18 @@
     padding-inline: 1rem;
 }
 
-.nombreCardObrasHome h4{
-    font-size: 1.5rem;   
-}
-
 .niñezVocacionHome{
-    padding: 3rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    flex-wrap: wrap;
 }
 
 .niñezVocacionHome div{
-    width: 40%;
-    padding-bottom: 15%;
-    font-size: 2rem;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    cursor: pointer;
     background-color: rgba(255, 255, 255, 0.5);
     position: relative;
     transition: all 0.3s ease;
@@ -236,8 +214,6 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    padding-inline: 2rem;
-    font-size: 2rem;
     font-weight: 600;
     filter: drop-shadow(2px 2px 2px rgb(81, 81, 81, .5));
     transition: all 0.3s ease;
@@ -245,28 +221,21 @@
 
 .testimonioSeñoraHome{
     width: 100%;
-    padding: 3rem 2rem;
 }
 
 .testimonioSeñoraHome h2{
     text-align: center;
     color: var(--dorado);
-    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
 .testimonioSeñoraHome p{
-    padding-inline: 2rem;
     text-align: center;
-    font-size: 3rem;
-    line-height: 3.3rem;
     font-weight: 300;
 }
 
 .testimonioSeñoraHome span{
     display: block;
-    text-align: end;
-    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -276,13 +245,14 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .contenedorParrafosMariaHome{
-    width: 70%;
     display: flex;
     justify-content: center;
     align-items: stretch;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -293,10 +263,6 @@
     font-family: var(--font-manhattan);
 }
 
-.columna1MariaHome{
-    width: 40%;
-}
-
 .columna1MariaHome p{
     width: 100%;
     font-size: 1.5rem;
@@ -304,10 +270,6 @@
 
 .columna1MariaHome p:not(:last-child){
     margin-bottom: 1rem;
-}
-
-.columna2MariaHome{
-    width: 40%;
 }
 
 .columna2MariaHome p{
@@ -320,65 +282,56 @@
 }
 
 .columna3MariaHome{
-    width: 30%;
     background-image: url("../../assets/Photos/maria1.jpg");
-    background-position: 100% 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .apostoladoHome{
     width: 100%;
-    padding: 3rem 2rem;
 }
 
 .apostoladoHome h2{
-    font-size: 2.5rem;
     font-family: var(--font-manhattan);
 }
 
 .contenedorCardsApostoladoHome{
-    width: 90%;
     margin: auto;
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: calc(8%/3);
 }
 
-.cardApostoladoHome{
-    width: 23%;
-    padding-bottom: 23%;
+.cardApostoladoHome div{
+    width: 100%;
+    padding-bottom: 70%;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.5);
-    cursor: pointer;
     position: relative;
     font-size: 2rem;
     transition: all 0.3s ease;
 }
 
-.cardApostoladoHome:hover{
+.cardApostoladoHome div:hover{
     background-color: rgba(255, 255, 255, 0.2);
     transform: scale(1.05);
 }
 
-.cardApostoladoHome:hover h5{
+.cardApostoladoHome div:hover h5{
     opacity: 0;
 }
 
 .cardApostoladoHome h5{
     width: 100%;
-    padding-inline: 2rem;
     position: absolute;
     left: 0;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 2rem;
     text-align: center;
     font-weight: 600;
     filter: drop-shadow(2px 2px 2px rgb(81, 81, 81, .5));
@@ -409,20 +362,17 @@
     width: 100%;
     padding-block: 3rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .imagenCristoHoyHome{
-    width: 30%;
     background-image: url("../../assets/Photos/amigos4.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .textoCristoHoyHome{
-    width: 70%;
-    padding-inline: 2rem;
     font-size: 1.5rem;
 }
 
@@ -471,17 +421,15 @@
     width: 100%;
     margin-top: 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .textoSueñoCumplirHome{
-    width: 70%;
-    padding-inline: 2rem;
     font-size: 1.5rem;
 }
 
 .textoSueñoCumplirHome p{
-    width: 80%;
     text-align: center;
     margin: auto;
 }
@@ -491,11 +439,827 @@
 }
 
 .imagenSueñoCumplirHome{
-    width: 30%;
     background-image: url("../../assets/Photos/sueño1.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0);
     background-blend-mode: overlay;
+}
+  
+@media (max-width: 576px) {
+
+    .portadaHome{
+        height: 300px;
+        background-position: 0% 0%;
+        padding-left: 1rem;
+    }
+    
+    .portadaHome img{
+        width: 250px;
+    }
+
+    .fraseInicialHome{
+        padding: 2rem 1rem;
+    }
+    
+    .fraseInicialHome p{
+        padding-inline: 1rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    
+    .fraseInicialHome span{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .biografiaHome{
+        padding: 2rem 1rem;
+    }
+
+    .biografiaHome p{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.65rem;
+    }
+
+    .nombreCardObrasHome h4{
+        font-size: 1rem;   
+    }
+
+    .obrasHome h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .niñezVocacionHome{
+        padding: 3rem 1rem;
+        row-gap: 2rem;
+    }
+
+    .niñezVocacionHome a{
+        width: 90%;
+    }
+
+    .niñezVocacionHome div{
+        padding-bottom: 90%;
+    }
+
+    .niñezVocacionHome h5{
+        padding-inline: 1rem;
+        font-size: 1.7rem;
+    }
+
+    .lineaDivisora{
+        height: 2px;
+        width: 80%;
+    }
+
+    .testimonioSeñoraHome{
+        padding: 2rem 1rem;
+    }
+    
+    .testimonioSeñoraHome h2{
+        font-size: 2rem;
+    }
+    
+    .testimonioSeñoraHome p{
+        padding-inline: 1rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    
+    .testimonioSeñoraHome span{
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .contenedorParrafosMariaHome{
+        width: 100%;
+    }
+
+    .columna1MariaHome{
+        text-align: center;
+        padding-inline: 2rem;
+        width: 100%;
+    }
+
+    .columna2MariaHome{
+        text-align: center;
+        padding-inline: 2rem;
+        width: 100%;
+    }
+
+    .columna3MariaHome{
+        margin-top: 2rem;
+        width: 100%;
+        height: 500px;
+        background-position: 100% 0%;
+    }
+
+    .apostoladoHome{
+        padding: 2rem 1rem;
+    }
+    
+    .apostoladoHome h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contenedorCardsApostoladoHome{
+        width: 90%;
+        gap: 2rem;
+    }
+    
+    .cardApostoladoHome{
+        width: 100%;
+    }
+
+    .cardApostoladoHome h5{
+        padding-inline: 1rem;
+        font-size: 1.7rem;
+    }
+
+    .cristoHoyHome{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .imagenCristoHoyHome{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .textoCristoHoyHome{
+        width: 100%;
+        padding-inline: 1rem;
+    }
+
+    .sueñoCumplirHome{
+        padding-bottom: 0rem;
+    }
+
+    .contenedorSueñoCumplirHome{
+        gap: 2rem;
+    }
+
+    .textoSueñoCumplirHome{
+        width: 100%;
+        padding-inline: 2rem;
+    }
+    
+    .textoSueñoCumplirHome p{
+        width: 100%;
+    }
+
+    .imagenSueñoCumplirHome{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .portadaHome{
+        height: 300px;
+        background-position: 0% 0%;
+        padding-left: 1rem;
+    }
+    
+    .portadaHome img{
+        width: 250px;
+    }
+
+    .fraseInicialHome{
+        padding: 2rem 1rem;
+    }
+    
+    .fraseInicialHome p{
+        padding-inline: 1rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    
+    .fraseInicialHome span{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .biografiaHome{
+        padding: 2rem 1rem;
+    }
+
+    .biografiaHome p{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.65rem;
+    }
+
+    .nombreCardObrasHome h4{
+        font-size: 1rem;   
+    }
+
+    .obrasHome h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .niñezVocacionHome{
+        padding: 3rem 1rem;
+        row-gap: 2rem;
+    }
+
+    .niñezVocacionHome a{
+        width: 90%;
+    }
+
+    .niñezVocacionHome div{
+        padding-bottom: 90%;
+    }
+
+    .niñezVocacionHome h5{
+        padding-inline: 1rem;
+        font-size: 1.7rem;
+    }
+
+    .lineaDivisora{
+        height: 2px;
+        width: 80%;
+    }
+
+    .testimonioSeñoraHome{
+        padding: 2rem 1rem;
+    }
+    
+    .testimonioSeñoraHome h2{
+        font-size: 2rem;
+    }
+    
+    .testimonioSeñoraHome p{
+        padding-inline: 1rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    
+    .testimonioSeñoraHome span{
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .contenedorParrafosMariaHome{
+        width: 100%;
+    }
+
+    .columna1MariaHome{
+        text-align: center;
+        padding-inline: 2rem;
+        width: 100%;
+    }
+
+    .columna2MariaHome{
+        text-align: center;
+        padding-inline: 2rem;
+        width: 100%;
+    }
+
+    .columna3MariaHome{
+        margin-top: 2rem;
+        width: 100%;
+        height: 500px;
+        background-position: 100% 0%;
+    }
+
+    .apostoladoHome{
+        padding: 2rem 1rem;
+    }
+    
+    .apostoladoHome h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contenedorCardsApostoladoHome{
+        width: 90%;
+        gap: 2rem;
+    }
+    
+    .cardApostoladoHome{
+        width: 100%;
+    }
+
+    .cardApostoladoHome h5{
+        padding-inline: 1rem;
+        font-size: 1.7rem;
+    }
+
+    .cristoHoyHome{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .imagenCristoHoyHome{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .textoCristoHoyHome{
+        width: 100%;
+        padding-inline: 1rem;
+    }
+
+    .sueñoCumplirHome{
+        padding-bottom: 0rem;
+    }
+
+    .contenedorSueñoCumplirHome{
+        gap: 2rem;
+    }
+
+    .textoSueñoCumplirHome{
+        width: 100%;
+        padding-inline: 2rem;
+    }
+    
+    .textoSueñoCumplirHome p{
+        width: 100%;
+    }
+
+    .imagenSueñoCumplirHome{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .portadaHome{
+        height: 300px;
+        background-position: 0% 0%;
+        padding-left: 1rem;
+    }
+    
+    .portadaHome img{
+        width: 250px;
+    }
+
+    .fraseInicialHome{
+        padding: 2rem 1rem;
+    }
+    
+    .fraseInicialHome p{
+        padding-inline: 1rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    
+    .fraseInicialHome span{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .biografiaHome{
+        padding: 2rem 1rem;
+    }
+
+    .biografiaHome p{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.65rem;
+    }
+
+    .nombreCardObrasHome h4{
+        font-size: 1rem;   
+    }
+
+    .obrasHome h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .niñezVocacionHome{
+        padding: 3rem 1rem;
+        row-gap: 2rem;
+    }
+
+    .niñezVocacionHome a{
+        width: 90%;
+    }
+
+    .niñezVocacionHome div{
+        padding-bottom: 90%;
+    }
+
+    .niñezVocacionHome h5{
+        padding-inline: 1rem;
+        font-size: 1.7rem;
+    }
+
+    .lineaDivisora{
+        height: 2px;
+        width: 80%;
+    }
+
+    .testimonioSeñoraHome{
+        padding: 2rem 1rem;
+    }
+    
+    .testimonioSeñoraHome h2{
+        font-size: 2rem;
+    }
+    
+    .testimonioSeñoraHome p{
+        padding-inline: 1rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    
+    .testimonioSeñoraHome span{
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .contenedorParrafosMariaHome{
+        width: 100%;
+    }
+
+    .columna1MariaHome{
+        text-align: center;
+        padding-inline: 2rem;
+        width: 100%;
+    }
+
+    .columna2MariaHome{
+        text-align: center;
+        padding-inline: 2rem;
+        width: 100%;
+    }
+
+    .columna3MariaHome{
+        margin-top: 2rem;
+        width: 100%;
+        height: 500px;
+        background-position: 100% 0%;
+    }
+
+    .apostoladoHome{
+        padding: 2rem 1rem;
+    }
+    
+    .apostoladoHome h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contenedorCardsApostoladoHome{
+        width: 90%;
+        gap: 2rem;
+    }
+    
+    .cardApostoladoHome{
+        width: 100%;
+    }
+
+    .cardApostoladoHome h5{
+        padding-inline: 1rem;
+        font-size: 1.7rem;
+    }
+
+    .cristoHoyHome{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .imagenCristoHoyHome{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .textoCristoHoyHome{
+        width: 100%;
+        padding-inline: 1rem;
+    }
+
+    .sueñoCumplirHome{
+        padding-bottom: 0rem;
+    }
+
+    .contenedorSueñoCumplirHome{
+        gap: 2rem;
+    }
+
+    .textoSueñoCumplirHome{
+        width: 100%;
+        padding-inline: 2rem;
+    }
+    
+    .textoSueñoCumplirHome p{
+        width: 100%;
+    }
+
+    .imagenSueñoCumplirHome{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+    .portadaHome{
+        height: 400px;
+        background-position: 50% 30%;
+        padding-left: 10rem;
+    }
+    
+    .portadaHome img{
+        height: 250px;
+    }
+
+    .fraseInicialHome{
+        padding: 3rem 2rem;
+    }
+    
+    .fraseInicialHome p{
+        padding-inline: 2rem;
+        font-size: 3rem;
+        line-height: 3.3rem;
+    }
+    
+    .fraseInicialHome span{
+        font-size: 1.5rem;
+    }
+
+    .biografiaHome{
+        padding: 3rem 2rem;
+    }
+
+    .biografiaHome p{
+        width: 50%;
+        font-size: 1.5rem;
+        line-height: 1.65rem;
+    }
+
+    .nombreCardObrasHome h4{
+        font-size: 1.5rem;   
+    }
+
+    .obrasHome h2{
+        font-size: 2.5rem;
+    }
+
+    .niñezVocacionHome{
+        padding: 3rem 2rem;
+        gap: 5%;
+    }
+
+    .niñezVocacionHome a{
+        width: 40%;
+    }
+
+    .niñezVocacionHome div{
+        padding-bottom: 50%;
+    }
+
+    .niñezVocacionHome h5{
+        padding-inline: 2rem;
+        font-size: 2rem;
+    }
+
+    .lineaDivisora{
+        height: 2px;
+        width: 60%;
+    }
+
+    .testimonioSeñoraHome{
+        padding: 3rem 2rem;
+    }
+    
+    .testimonioSeñoraHome h2{
+        font-size: 2rem;
+    }
+    
+    .testimonioSeñoraHome p{
+        padding-inline: 2rem;
+        font-size: 3rem;
+        line-height: 3.3rem;
+    }
+    
+    .testimonioSeñoraHome span{
+        text-align: end;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .contenedorParrafosMariaHome{
+        width: 70%;
+    }
+
+    .columna1MariaHome{
+        width: 40%;
+    }
+
+    .columna2MariaHome{
+        width: 40%;
+    }
+
+    .columna3MariaHome{
+        width: 30%;
+        background-position: 50% 50%;
+    }
+
+    .apostoladoHome{
+        padding: 3rem 2rem;
+    }
+    
+    .apostoladoHome h2{
+        font-size: 2.5rem;
+    }
+
+    .contenedorCardsApostoladoHome{
+        width: 90%;
+        gap: calc(8%/3);
+    }
+    
+    .cardApostoladoHome{
+        width: 23%;
+    }
+
+    .cardApostoladoHome h5{
+        padding-inline: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .imagenCristoHoyHome{
+        width: 40%;
+    }
+    
+    .textoCristoHoyHome{
+        width: 60%;
+        padding-inline: 2rem;
+    }
+
+    .textoSueñoCumplirHome{
+        width: 60%;
+        padding-inline: 2rem;
+    }
+    
+    .textoSueñoCumplirHome p{
+        width: 80%;
+    }
+
+    .imagenSueñoCumplirHome{
+        width: 40%;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .portadaHome{
+        height: 400px;
+        background-position: 50% 30%;
+        padding-left: 10rem;
+    }
+    
+    .portadaHome img{
+        height: 250px;
+    }
+
+    .fraseInicialHome{
+        padding: 3rem 2rem;
+    }
+    
+    .fraseInicialHome p{
+        padding-inline: 2rem;
+        font-size: 3rem;
+        line-height: 3.3rem;
+    }
+    
+    .fraseInicialHome span{
+        font-size: 1.5rem;
+    }
+
+    .biografiaHome{
+        padding: 3rem 2rem;
+    }
+
+    .biografiaHome p{
+        width: 50%;
+        font-size: 1.5rem;
+        line-height: 1.65rem;
+    }
+
+    .nombreCardObrasHome h4{
+        font-size: 1.5rem;   
+    }
+
+    .obrasHome h2{
+        font-size: 2.5rem;
+    }
+
+    .niñezVocacionHome{
+        padding: 3rem 2rem;
+        gap: 5%;
+    }
+
+    .niñezVocacionHome a{
+        width: 40%;
+    }
+
+    .niñezVocacionHome div{
+        padding-bottom: 30%;
+    }
+
+    .niñezVocacionHome h5{
+        padding-inline: 2rem;
+        font-size: 2rem;
+    }
+
+    .lineaDivisora{
+        height: 2px;
+        width: 60%;
+    }
+
+    .testimonioSeñoraHome{
+        padding: 3rem 2rem;
+    }
+    
+    .testimonioSeñoraHome h2{
+        font-size: 2rem;
+    }
+    
+    .testimonioSeñoraHome p{
+        padding-inline: 2rem;
+        font-size: 3rem;
+        line-height: 3.3rem;
+    }
+    
+    .testimonioSeñoraHome span{
+        text-align: end;
+        font-size: 1.5rem;
+    }
+
+    .contenedorParrafosMariaHome{
+        width: 70%;
+    }
+
+    .columna1MariaHome{
+        width: 40%;
+    }
+
+    .columna2MariaHome{
+        width: 40%;
+    }
+
+    .columna3MariaHome{
+        width: 30%;
+        background-position: 100% 50%;
+    }
+
+    .apostoladoHome{
+        padding: 3rem 2rem;
+    }
+    
+    .apostoladoHome h2{
+        font-size: 2.5rem;
+    }
+
+    .contenedorCardsApostoladoHome{
+        width: 90%;
+        gap: calc(8%/3);
+    }
+    
+    .cardApostoladoHome{
+        width: 23%;
+    }
+
+    .cardApostoladoHome h5{
+        padding-inline: 2rem;
+        font-size: 2rem;
+    }
+
+    .imagenCristoHoyHome{
+        width: 30%;
+    }
+    
+    
+    .textoCristoHoyHome{
+        width: 70%;
+        padding-inline: 2rem;
+    }
+
+    .textoSueñoCumplirHome{
+        width: 70%;
+        padding-inline: 2rem;
+    }
+    
+    .textoSueñoCumplirHome p{
+        width: 80%;
+    }
+
+    .imagenSueñoCumplirHome{
+        width: 30%;
+    }
 }
