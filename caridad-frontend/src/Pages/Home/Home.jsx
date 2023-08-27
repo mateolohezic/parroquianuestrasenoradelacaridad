@@ -3,6 +3,7 @@ import './home.css'
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import nombrePadre from '../../assets/nombrePadreNegroAños.png'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function Home() {
 
@@ -27,6 +28,14 @@ function Home() {
 
   return (
   <>
+    <HelmetProvider>
+        <Helmet>
+            <meta name="description" content="El padre Jorge Gandur fue el primer párroco de la parroquia Nuestra señora de La Caridad. Obró siempre con amor y dedicación, poniendo a la comunidad y el amor a María y a Dios sobre todas las cosas." />
+            <meta name="keywords" content="Nuestra, señora, senora, caridad, parroquia, yerba, buena, Tucumán, Tucuman, argentina, iglesia, misa, dios, católico" />
+            <meta name="subject" content="Padre Jorge Gandur" />
+            <title>Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
+        </Helmet>
+    </HelmetProvider>
     <div className='portadaHome'>
       <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
     </div>
