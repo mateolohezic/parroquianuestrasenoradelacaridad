@@ -1,14 +1,12 @@
 import React from 'react'
 import './plantilla2.css'
-import nombrePadre from '../../assets/nombrePadreNegroAños.png'
 import fotoPrueba from '../../assets/Photos/ac4.jpg'
+import Portada from '../../Components/Portada/Portada'
 
 function Plantilla2() {
     return (
     <>
-        <div className='portadaHome'>
-            <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
-        </div>
+        <Portada />
         <div className='volverAlInicio'>
             <a href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#BF9663" fill="none" strokeLinecap="round" strokeLinejoin="round">

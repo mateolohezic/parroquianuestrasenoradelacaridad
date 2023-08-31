@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './home.css'
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
-import nombrePadre from '../../assets/nombrePadreNegroAños.png'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
+import Portada from '../../Components/Portada/Portada';
 
 function Home() {
+
+  const [isIphone, setIsIphone] = useState(false)
+
+  useEffect(() => {
+      if (navigator.platform === 'iPhone' || navigator.platform === 'iPod' || navigator.platform === 'iPad' || navigator.platform === 'iPhone Simulator' || navigator.platform === 'iPod Simulator' || navigator.platform === 'iPad Simulator' || navigator.platform === 'Macintosh' || navigator.platform === 'MacIntel' || navigator.platform === 'MacAppleSilicon' || navigator.platform === 'MacPPC' || navigator.platform === 'Mac68K' || navigator.platform === 'Pike v7.6 release 92' || navigator.platform === 'Pike v7.8 release 517') {
+          setIsIphone(true)
+      }
+  }, [])
 
   const responsiveCarousel = {
     superLargeDesktop: {
@@ -35,9 +43,7 @@ function Home() {
             <title>Padre Jorge Gandur | Parroquia Nuestra señora de La Caridad</title>
         </Helmet>
     </HelmetProvider>
-    <div className='portadaHome'>
-      <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
-    </div>
+    <Portada />
     <div className='fraseInicialHome'>
       <p>"El gran fruto de mi encuentro con Jorge, fue que me enseñó a no centrarme en los lógicos temores ante tamaña decisión, sino más bien, a poner toda mi confianza en <strong>Jesucristo.</strong>"</p>
       <span>Pbro. Lic. Horacio A. Gómez</span>
@@ -51,7 +57,7 @@ function Home() {
         </a>
       </div>
     </div>
-    <div className='bandaImagenHome'></div>
+    <div className={ isIphone ? 'bandaImagenIphoneHome' : 'bandaImagenHome' }></div>
     <div className='biografiaHome'>
       <p>En las Parroquias de Yerba Buena y en todas las Capillas, nos encontramos con gente que se acercó a la Iglesia en la época en que el Padre Jorge impulsaba las actividades.</p>
       <p>Muchos Matrimonios y Familias viven hoy su Vida Sacramental gracias al sostén que el Padre Jorge logró durante su presencia entre nosotros.</p>
@@ -223,7 +229,7 @@ function Home() {
         </div>
       </div>
     </div>
-    <div className='bandaImagen2Home'></div>
+    <div className={ isIphone ? 'bandaImagen2IphoneHome' : 'bandaImagen2Home' }></div>
     <div className='sueñoCumplirHome' id='sueñoXCumplir'>
       <div className='contenedorSueñoCumplirHome'>
         <div className='textoSueñoCumplirHome'>

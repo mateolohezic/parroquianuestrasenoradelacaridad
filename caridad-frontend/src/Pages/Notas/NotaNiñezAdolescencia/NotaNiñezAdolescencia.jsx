@@ -1,7 +1,7 @@
 import React from 'react'
-import nombrePadre from '../../../assets/nombrePadreNegroAños.png'
 import foto1 from '../../../assets/Photos/niñez2.jpg'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
+import Portada from '../../../Components/Portada/Portada'
 
 function NotaNiñezAdolescencia() {
     return (
@@ -13,9 +13,7 @@ function NotaNiñezAdolescencia() {
                 <title>Jorge, niñez y adolescencia | Parroquia Nuestra señora de La Caridad</title>
             </Helmet>
         </HelmetProvider>
-        <div className='portadaHome'>
-            <img src={nombrePadre} alt="Padre Jorge Antonio Gandur" />
-        </div>
+        <Portada />
         <div className='volverAlInicio'>
             <a href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#BF9663" fill="none" strokeLinecap="round" strokeLinejoin="round">
