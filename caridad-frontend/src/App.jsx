@@ -24,6 +24,7 @@ import NotaDivino from './Pages/Notas/NotaDivino/NotaDivino';
 import NotaOrquesta from './Pages/Notas/NotaOrquesta/NotaOrquesta';
 import NotaConsagracion from './Pages/Notas/NotaConsagracion/NotaConsagracion';
 import NotaVirgenEucaristia from './Pages/Notas/NotaVirgenEucaristia/NotaVirgenEucaristia';
+import QRTemploNuevo from './Pages/QR/QRTemploNuevo';
 
 function App() {
 
@@ -49,6 +50,8 @@ function App() {
         <Route path="/El-padre-jorge-gandur-y-la-orquesta-del-divino-nino" element={<NotaOrquesta/>} />
         <Route path="/El-padre-gandur-y-las-charlas-de-consagracion-a-la-virgen" element={<NotaConsagracion/>} />
         <Route path="/Testimonio-del-padre-sobre-la-virgen-de-la-eucaristia" element={<NotaVirgenEucaristia/>} />
+
+        <Route path="/qr-nuevo-templo" element={<QRTemploNuevo/>} />
       </Routes>
       <Footer/>
     </>
