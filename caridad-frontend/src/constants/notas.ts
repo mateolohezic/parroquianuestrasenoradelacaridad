@@ -125,7 +125,7 @@ export const NOTAS: Nota[] = [
       "Tendría muchas más anécdotas para relatar en lo personal y muchas más de tantas otras personas de la Capilla que trabajaron a su lado y lo siguen haciendo hoy por la Gracia de Dios.",
       "El Padre Jorge Antonio Gandur fue sin duda un elegido de Dios. Una persona sensible, sutil, humilde y con una gran vocación de servicio hacia el prójimo.",
     ],
-    images: ["divina1.jpg", "colegioDivina3.jpeg", "colegioDivina1.jpg", "divina3.jpg"],
+    images: ["divina1.jpg", "colegioDivina3.webp", "colegioDivina1.jpg", "divina3.jpg"],
   },
   {
     slug: "la-capilla-san-antonio-de-padua",
@@ -154,7 +154,7 @@ export const NOTAS: Nota[] = [
       'En su afán de profundizar sobre la Eucaristía, en el año 2004 se comunicó con Mons. Puyelli, a quien le manifestó su deseo de tener una Capilla de Adoración Perpetua en su parroquia. Fue providencial que en ese momento estuviera con el Padre Patricio Hileman, misionero de Nuestra Señora del Santísimo Sacramento, quien de inmediato se puso a disposición y en diciembre de ese mismo año vino a catequizar a los fieles de la parroquia para organizar la Adoración Eucarística Perpetua. Apenas nueve meses más tarde, el 10 de septiembre de 2005, se inauguró la capilla. Tucumán ya contaba con el primer templo de Adoración Perpetua, al que el Padre Jorge le llamaba "la usina de amor" de su parroquia. El Padre nos decía: "el adorador debe ser un instrumento para cambiar la sociedad, pues enciende la temperatura espiritual del mundo. Con la inauguración de la capilla iniciamos un itinerario espiritual Eucarístico, con muchos frutos permanentes. Este itinerario presupone una gran humildad. Con la adoración perpetua, será posible perseverar y que otras generaciones continúen esta tarea hasta el fin de los tiempos."',
       "Próxima a cumplir 18 años, la Capilla de la Adoración Eucarística Perpetua es el valioso legado del querido Padre Jorge Gandur. Sus frutos son permanentes, diarios podríamos decir. Son abundantes los testimonios de piedad, de conversiones, de reconstrucciones familiares. El alcance de las gracias y favores recibidos por la Adoración al Santísimo es inconmensurable. ¡Gracias Padre Jorge por tan gran regalo!",
     ],
-    images: ["oratorio2.jpg", "oratorio1.jpg", "sacerdote13.JPG"],
+    images: ["oratorio2.jpg", "oratorio1.jpg", "sacerdote13.webp"],
   },
   {
     slug: "la-capilla-nuestra-senora-del-rosario",
@@ -278,7 +278,7 @@ export const NOTAS: Nota[] = [
       "Las Charlas de Consagración encendieron los corazones. Miles de consagrados dan testimonio hoy de conversiones, familias enteras consagradas como faros de luz, almas piadosas en cenáculos o soldados de la Reina del Cielo empuñando el Santo Rosario trabajando todos para la Iglesia de Cristo.",
       'Gracias Padre Jorge por marcarnos el camino mariano. Hoy continuamos como Grupo Formador trabajando y cantando: "Un día al Cielo iré y la contemplaré"!',
     ],
-    images: ["consagracion1.jpg", "maria1.jpg", "consagracion2.jpeg"],
+    images: ["consagracion1.jpg", "maria1.jpg", "consagracion2.webp"],
   },
   {
     slug: "testimonio-virgen-de-la-eucaristia",

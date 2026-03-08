@@ -16,7 +16,7 @@ import {
 } from "@/icons";
 import { SectionHeading, FloatingCrosses } from "@/components";
 import { NOTAS, type Nota } from "@/constants/notas";
-import padreGandur from "@/assets/photos/padre-gandur.jpeg";
+import padreGandur from "@/assets/photos/padre-gandur.webp";
 
 /* ────────────────── helpers ────────────────── */
 
