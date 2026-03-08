@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dorado: #BF9663;
+  --color-dorado-light: #D4B07A;
+  --color-dorado-dark: #A07A4A;
+  --color-dorado-muted: rgba(191, 150, 99, 0.15);
+  --color-dorado-glow: rgba(191, 150, 99, 0.3);
+  --color-surface: rgba(30, 25, 18, 0.4);
+  --color-surface-light: rgba(30, 25, 18, 0.6);
+  --color-cream: #F5F0E8;
+  --color-cream-dark: #EDE5D8;
+  --color-text-secondary: #a8a29e;
+  --color-text-tertiary: #78716c;
+  --color-text-light: #d6d3d1;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .no-interact {
+    user-select: none;
+    pointer-events: none;
+  }
+
+  ::selection {
+    background-color: var(--color-dorado-glow);
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  .transition-300 {
+    transition-property: color, background-color, border-color, opacity, transform, box-shadow;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  .transition-500 {
+    transition-property: color, background-color, border-color, opacity, transform, box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  .animate-shimmer {
+    animation: shimmer 4s ease-in-out infinite;
+    background-size: 200% 100%;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-glow-pulse {
+    animation: glow-pulse 3s ease-in-out infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px var(--color-dorado-muted); }
+  50% { box-shadow: 0 0 40px var(--color-dorado-glow); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-stone-950, #0c0a09);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-dorado);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-dorado-light);
+}
